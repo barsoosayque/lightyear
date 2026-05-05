@@ -219,7 +219,7 @@ bevy_winit = { version = "0.18", default-features = false }
 tracy-client = { version = "0.18" }
 
 # input
-bevy_enhanced_input = { version = "0.23", default-features = false, features = [
+bevy_enhanced_input = { version = "0.24", default-features = false, features = [
   "serialize",
 ] }
 leafwing-input-manager = { version = "0.20", default-features = false, features = [
@@ -227,8 +227,8 @@ leafwing-input-manager = { version = "0.20", default-features = false, features 
 ] }
 
 # physics
-avian2d = { version = "0.5", default-features = false }
-avian3d = { version = "0.5", default-features = false }
+avian2d = { version = "0.6", default-features = false }
+avian3d = { version = "0.6", default-features = false }
 
 # gui debug ui
 bevy-inspector-egui = { version = "0.36", default-features = false, features = [
